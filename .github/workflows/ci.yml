@@ -5,6 +5,8 @@ on:
     branches: [ main ]
 
 env:
+  # renovate: datasource=github-tags depName=golang/go
+  # extractVersion=^go(?<version>.*)$
   GOLANG_VERSION: "1.19.5"
 
 jobs:
