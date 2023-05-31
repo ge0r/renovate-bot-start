@@ -14,7 +14,7 @@
   "regexManagers": [
     {
       "fileMatch": [
-        "^\\.github\\/workflows\\/ci\\.yml$"
+        "^\\.github\\/workflowERs\\/ci\\.yml$"
       ],
       "matchStrings": [
         "# renovate:[\\s#]+datasource=(?<datasource>[a-z-]+?)[\\s#]+depName=(?<depName>[^\\s]+?)(?:[\\s#]+versioning=(?<versioning>[^\\s]+?))?(?:[\\s#]+extractVersion=(?<extractVersion>[^\\s]+?))?\\s .+?_VERSION:\\s+[\"']?(?<currentValue>.+?)[\"']?\\s"
