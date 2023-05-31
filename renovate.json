@@ -1,15 +1,25 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "config:base",
+    ":semanticCommits",
+    ":semanticCommitTypeAll(ci)"
+  ],
   "packageRules": [
     {
       "matchUpdateTypes": ["major"],
       "dependencyDashboardApproval": true
     }
   ],
-  "extends": [
-    "config:base",
-    ":semanticCommits",
-    ":semanticCommitTypeAll(ci)"
+  "regexManagers": [
+    {
+      "fileMatch": [
+        "^\\.gitlab-ci\\.yml$"
+      ],
+      "matchStrings": [
+        "# renovate:[\\s#]+datasource=(?<datasource>[a-z-]+?)[\\s#]+depName=(?<depName>[^\\s]+?)(?:[\\s#]+versioning=(?<versioning>[^\\s]+?))?(?:[\\s#]+extractVersion=(?<extractVersion>[^\\s]+?))?\\s .+?_VERSION:\\s+[\"']?(?<currentValue>.+?)[\"']?\\s"
+      ]
+    }
   ],
   "prHourlyLimit": 3,
 }
