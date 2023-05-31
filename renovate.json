@@ -1,10 +1,15 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "packageRules": [
+    {
+      "matchUpdateTypes": ["major"],
+      "dependencyDashboardApproval": true
+    }
+  ],
   "extends": [
     "config:base",
     ":semanticCommits",
     ":semanticCommitTypeAll(ci)"
   ],
   "prHourlyLimit": 3,
-  "matchUpdateTypes": ["major"]
 }
