@@ -12,7 +12,7 @@
     },
     {
       "matchDepNames": "golang/go",
-       "rangeStrategy": "pin",
+      "rangeStrategy": "pin",
       "pinVersions": {
         "minor": true
       }
