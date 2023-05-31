@@ -9,6 +9,13 @@
     {
       "matchUpdateTypes": ["major"],
       "dependencyDashboardApproval": true
+    },
+    {
+      "matchDepNames": "golang/go",
+       "rangeStrategy": "pin",
+      "pinVersions": {
+        "minor": true
+      }
     }
   ],
   "regexManagers": [
