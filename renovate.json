@@ -9,7 +9,7 @@
     {
       "matchPackageNames": ["golang/go"],
       "matchUpdateTypes": ["major", "minor"],
-      "enabled": "true"
+      "enabled": "false"
     }
   ],
   "regexManagers": [
