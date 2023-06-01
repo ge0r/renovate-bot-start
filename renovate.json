@@ -11,7 +11,7 @@
       "dependencyDashboardApproval": true
     },
     {
-      "matchPackageNames": ["go"],
+      "matchPackageNames": ["golang/go"],
       "rangeStrategy": "pin",
       "pinVersions": {
         "minor": true
