@@ -7,7 +7,7 @@
   ],
   "packageRules": [
     {
-      "matchPackageNames": ["golang/gondolin"],
+      "matchPackageNames": ["golang/go"],
       "matchUpdateTypes": ["major", "minor"],
       "enabled": "false"
     },
