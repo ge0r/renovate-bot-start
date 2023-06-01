@@ -7,11 +7,14 @@
   ],
   "packageRules": [
     {
-      "separateMinorPatch": true,
       "matchPackageNames": "golang/go",
       "matchUpdateTypes": ["major", "minor"],
       "enabled": "false"
     },
+    {
+      "matchPackageNames": "golang/go",
+      "separateMinorPatch": true
+    }
   ],
   "regexManagers": [
     {
