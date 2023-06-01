@@ -7,7 +7,7 @@ on:
 env:
   # renovate: datasource=github-tags depName=golang/go
   # extractVersion=^go(?<version>.*)$
-  GOLANG_VERSION: "1.19.6"
+  GOLANG_VERSION: "1.20.4"
 
 jobs:
   build:
