@@ -12,7 +12,8 @@
     },
     {
       "matchPackageNames": ["golang/go"],
-      "matchUpdateTypes": ["patch"],
+      "matchUpdateTypes": ["major", "minor"],
+      "enabled": "false"
     }
   ],
   "regexManagers": [
