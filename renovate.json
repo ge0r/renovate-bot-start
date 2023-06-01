@@ -10,11 +10,6 @@
     {
       "matchPackageNames": ["golang/go"],
       "matchUpdateTypes": ["major", "minor"],
-      "enabled": "true"
-    },
-     {
-      "matchPackageNames": ["golang/godot"],
-      "matchUpdateTypes": ["major", "minor"],
       "enabled": "false"
     },
   ],
