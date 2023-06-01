@@ -10,6 +10,11 @@
       "matchPackageNames": ["golang/go"],
       "matchUpdateTypes": ["major", "minor"],
       "enabled": "false"
+    },
+    {
+      "matchPackageNames": ["golang/go"],
+      "matchUpdateTypes": ["patch"],
+      "enabled": "true"
     }
   ],
   "regexManagers": [
