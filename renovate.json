@@ -5,9 +5,9 @@
     ":semanticCommits",
     ":semanticCommitTypeAll(ci)"
   ],
-  "separateMinorPatch": true,
   "packageRules": [
     {
+      "separateMinorPatch": true,
       "matchPackageNames": "golang/go",
       "matchUpdateTypes": ["major", "minor"],
       "enabled": "false"
